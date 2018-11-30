@@ -1,0 +1,65 @@
+//font size
+$font-size-greate-title: 40px;
+$font-size-subtitle: 18px;
+$font-size-subject: 19px;
+$font-size-content: 14px;
+$font-size-second-content: 12px;
+//line spacing
+$line-spacing-content: 25px;
+$line-spacing-second-content: 21px;
+$line-spacing-subject: 37px;
+$line-spacing-subtitle: 30px;
+$line-spacing-greate-title: 55px;
+//color
+$primary-color: #eb142a;
+$darken: #0c0c0c;
+$gray: #888888;
+$dark-gray: #7f7f7f;
+$light-gray: #d7d7d7;
+$rs-red: #eb142a;
+
+
+.container-fluid{
+  background: $darken;
+}
+.text-yellow{
+  color: #FFC90A;
+}
+.text-white-yellow{
+  color: #FFDC53;
+}
+.container{
+  max-width: 1280px;
+  background: #ffffff;
+}
+//font
+@font-face {
+  font-family: roboto-condensed-bold;
+  src: url(../font/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-bold-italic;
+  src: url(../font/RobotoCondensed-BoldItalic.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-italic;
+  src: url(../font/RobotoCondensed-Italic.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-light;
+  src: url(../font/RobotoCondensed-Light.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-light-italic;
+  src: url(../font/RobotoCondensed-LightItalic.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-regular;
+  src: url(../font/RobotoCondensed-Regular.ttf);
+}
+$roboto-condensed-bold: roboto-condensed-bold;
+$roboto-condensed-bold-italic: roboto-condensed-bold-italic;
+$roboto-condensed-italic: roboto-condensed-italic;
+$roboto-condensed-light: roboto-condensed-light;
+$roboto-condensed-light-italic: roboto-condensed-light-italic;
+$roboto-condensed-regular: roboto-condensed-regular;
