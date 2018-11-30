@@ -80,6 +80,15 @@
       font-size: 14px;
     }
   }
+  .offset-1{
+    margin-left: 9.33333%;
+  }
+  .my-top{
+    .item-des{
+      margin-left: 40%;
+
+    }
+  }
 }
 
 .mid-4{
@@ -97,7 +106,10 @@
   background: #ffffff;
 }
 .mid-6{
-  min-height: 400px;
+  background: url("../images/group5.png");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .mid-7{
